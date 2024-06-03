@@ -6,7 +6,7 @@ export default function AuthLayout({ children, className }) {
     <main
       className={cn(
         className,
-        "w-full lg:grid lg:min-h-[600px] overflow-hidden lg:grid-cols-2 ",
+        "w-full lg:grid lg:min-h-[600px] h-screen overflow-hidden lg:grid-cols-2 ",
       )}>
       {children}
     </main>
